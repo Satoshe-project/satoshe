@@ -1,0 +1,34 @@
+src/*.exe
+src/satoshe
+src/satoshed
+src/test_satoshe
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.satoshe
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+satoshe-qt
+Satoshe-Qt.app
+
+# Unit-tests
+Makefile.test
+satoshe-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
